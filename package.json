@@ -1,0 +1,19 @@
+{
+  "name": "simulador-preco-bruto-liquido",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Projeto acadêmico CI/CD: API Node e app React para simular preço bruto e líquido.",
+  "workspaces": [
+    "api",
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace api",
+    "dev:api": "npm run dev --workspace api",
+    "dev:web": "npm run dev --workspace web",
+    "test": "npm run test --workspaces --if-present",
+    "test:api": "npm run test --workspace api",
+    "test:web": "npm run test --workspace web",
+    "build": "npm run build --workspace web"
+  }
+}

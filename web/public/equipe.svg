@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Foto ilustrativa da equipe</title>
+  <desc id="desc">Ilustracao com tres integrantes do projeto.</desc>
+  <rect width="720" height="480" fill="#f6f8f9"/>
+  <rect x="36" y="36" width="648" height="408" rx="18" fill="#ffffff" stroke="#d7e1e7"/>
+  <circle cx="210" cy="190" r="58" fill="#0f766e"/>
+  <circle cx="360" cy="170" r="64" fill="#124559"/>
+  <circle cx="510" cy="190" r="58" fill="#7c2d12"/>
+  <path d="M110 365c20-75 176-75 200 0" fill="#89d4c9"/>
+  <path d="M242 365c24-88 210-88 236 0" fill="#91a9b8"/>
+  <path d="M410 365c20-75 176-75 200 0" fill="#d8a17a"/>
+  <text x="360" y="420" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#17212b">Equipe PBL</text>
+</svg>

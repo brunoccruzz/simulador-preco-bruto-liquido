@@ -1,20 +1,20 @@
-# Simulador de Preco Bruto e Liquido
+# Simulador de Preço Bruto e Líquido
 
-Projeto academico de Gerencia de Configuracao, Entrega e Integracao Continua.
+> Projeto acadêmico — Gerência de Configuração, Entrega e Integração Contínua
 
-## Tema
+## O que faz
 
-Simulador de preco bruto e liquido para vendas. A aplicacao calcula:
+- Calcula o preço líquido a partir do preço bruto
+- Determina o preço bruto necessário para atingir um líquido desejado
+- Estima margem e lucro a partir do custo do produto
 
-- preco liquido a partir do preco bruto;
-- preco bruto necessario para chegar a um liquido desejado;
-- margem e lucro estimado a partir do custo.
+## Stack
 
-## Tecnologias
-
-- API: Node.js, Express e Vitest
-- Web: React, Vite e Vitest
-- CI/CD: GitHub Actions
+| Camada | Tecnologias |
+|--------|-------------|
+| API    | Node.js · Express · Vitest |
+| Web    | React · Vite · Vitest |
+| CI/CD  | GitHub Actions |
 
 ## Como executar
 
@@ -24,20 +24,24 @@ npm run dev:api
 npm run dev:web
 ```
 
-Credenciais fixas do login:
+## Credenciais de acesso
 
-- Usuario: `admin`
-- Senha: `123456`
+| Campo   | Valor    |
+|---------|----------|
+| Usuário | `admin`  |
+| Senha   | `123456` |
 
-## Endpoint base da equipe
+## Endpoint base
 
-`/PBL`
+```
+/PBL
+```
 
-Caso exista outra equipe com o mesmo tema, altere o prefixo para `/PBL2` em `api/src/routes/pricingRoutes.js`.
+> Se outra equipe usar o mesmo tema, altere o prefixo para `/PBL2` em `api/src/routes/pricingRoutes.js`.
 
-## Comandos uteis
+## Comandos úteis
 
 ```bash
-npm test
-npm run build
+npm test        # executa os testes
+npm run build   # gera os artefatos de produção
 ```

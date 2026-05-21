@@ -65,5 +65,3 @@ npm run dev:web
 O app abre em `http://localhost:5173` e a API em `http://localhost:3001/PBL`.
 
 Para deploy em qualquer plataforma, publique o build do app em `web/dist` e configure a API Node/Express para responder no prefixo `/PBL`. Em producao, o app usa `/PBL` automaticamente. Para apontar para outra API, configure `VITE_API_URL`.
-
-O arquivo `vercel.json` da raiz esta pronto apenas como opcao para deploy na Vercel.
